@@ -1,0 +1,44 @@
+.userInfo {
+  width: 250px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+.userUrl {
+  width: 50%;
+}
+.text {
+}
+.App {
+  text-align: center;
+  gap: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.userInfo:last-child {
+  grid-column: 3/2;
+  /* margin: 0 auto; */
+}
+.userId {
+  width: 40px;
+  height: 35px;
+  border: 1px solid;
+
+  padding-top: 10px;
+  position: relative;
+  left: 50%;
+  top: 3%;
+}
+.firstItem {
+  display: flex;
+  margin: 0;
+}
+.title {
+  position: relative;
+  left: 10%;
+}
